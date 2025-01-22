@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f0f0; /* Light grey background */
+  }
+
+  header {
+    background-color: #ffcccb; /* Light pink background */
+  }
+
+  section {
+    background-color: #e0e0e0; /* Light gray for the sections */
+  }
+
+  footer {
+    background-color: #222; /* Dark background for the footer */
+    color: white; /* White text in footer */
+  }

@@ -1,0 +1,238 @@
+/* use for dak 1 color change ban all */
+:root {
+  --primary-color: rgb(103, 103, 182);
+  --secondary-color: orange;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  /* dak vea oy nv kdal */
+  align-items: center;
+  justify-content: space-between;
+  /* for dak box oy vea thom */
+  padding: 20px 90px;
+  /*  put course-container inside of header */
+  z-index: 1000;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+button {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+button:hover {
+  color: rgb(186, 144, 144);
+}
+
+.tittle {
+  text-align: center;
+  margin: 40px 0;
+}
+.tittle h1 {
+  color: darkblue;
+  font-size: 30px;
+  line-height: 2;
+}
+.tittle p {
+  font-size: 18px;
+}
+
+.tab-design {
+  /* for komnot space left right*/
+
+  width: 1040px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(224, 224, 251);
+  padding: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(224, 224, 251);
+  color: rgb(75, 75, 137);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: rgb(118, 118, 224);
+  color: white;
+}
+
+.tab-button.active {
+  color: white;
+}
+
+.tab-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: calc((100% - (20px * 3)) / 4);
+  height: 350px;
+  gap: 20px;
+  position: relative;
+}
+/* put animation on course card */
+.course-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 10px;
+  height: 100px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 6px;
+  display: block;
+}
+
+.course-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  /* padding: 10px 20px; */
+}
+
+.course-card p {
+  font-size: 14px;
+  color: #605d5d;
+  margin: 10px 0;
+}
+
+.course-card span {
+  font-size: 11px;
+  font-weight: bold;
+  color: #2f2424b3;
+}
+.card-footer {
+  border-top: 1px solid #000000a0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 12px;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+}
+.label small {
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+.footer {
+  background-color: rgb(103, 103, 182);
+  color: white;
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(241, 223, 223);
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 5px;
+}
+
+.footer-section ul li a:hover {
+  color: pink;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
