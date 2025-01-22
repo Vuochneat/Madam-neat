@@ -1,0 +1,187 @@
+/* Style the header to center its content */
+header {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 200px; /* Set a specific height for the header */
+  text-align: center; /* Ensure the text is centered */
+  background-color: rgb(103, 103, 182); /* Optional: Set a background color */
+  color: white; /* Change text color to white */
+}
+
+header h2 {
+  color: white;
+  text-decoration: none;
+}
+header h2:hover {
+  color: orange;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  position: relative;
+  height: 30vh; /* Set footer height */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.footer-image {
+  width: 100%; /* Make the image span the full width */
+  height: 100%; /* Make the image span the full height */
+  object-fit: cover; /* Ensure the image fully covers the area */
+}
+
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  color: white; /* White text for contrast */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text alignment */
+}
+.tab-design {
+  display: flex;
+  justify-content: center; /* Horizontally center the card */
+  align-items: center; /* Vertically center the card */
+  height: 80vh; /* Full height of the section */
+  width: 100%; /* Full width of the section */
+}
+.card {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the section */
+  max-width: 1200px; /* Optional: Set a maximum width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better aesthetics */
+  border-radius: 8px; /* Optional: Rounded corners */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.card-img-top {
+  width: 100%; /* Full width for the image */
+  height: 50%; /* Half the card's height */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30%; /* Half the card's height */
+}
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+/* Optional: Add hover effect on card text */
+.card:hover .card-title,
+.card:hover .card-text {
+  color: #007bff; /* Change text color on hover */
+  transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+/* Optional: Style for the header text */
+.head {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+/* Style the footer background */
+footer {
+  background-color: #333; /* Set the background color for the footer */
+  color: white; /* Set the text color to white */
+}
+
+/* Optional: Style for the footer links */
+footer .nav-link {
+  color: white; /* Change the color of the links to white */
+}
+
+footer .nav-link:hover {
+  color: #f1c40f; /* Change color on hover */
+}
+
+/* Optional: Style for footer heading */
+footer h5 {
+  color: #f1c40f; /* Set a golden color for footer headings */
+}
+/* Change background color of the footer */
+footer {
+  background-color: #333; /* Set the desired color */
+  color: white; /* Optional: Change text color to white */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 300px; /* Set a specific height for the header */
+  text-align: center;
+}
+/* Change text color of anchor tags to white */
+footer .nav-link {
+  color: white !important; /* Ensure the text is white */
+}
+
+footer .nav-link:hover {
+  color: #f1c40f; /* Optional: color on hover */
+}
+html,
+body {
+  height: 100%; /* Make sure the body takes full height */
+  margin: 0; /* Remove any default margin */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto; /* Push footer to the bottom of the page */
+}
+/* Ensure the body takes up the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox layout for full height */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push footer to the bottom */
+}
+
+/* This will make the footer stick at the bottom */
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+}
+/* Center the content vertically and horizontally */
+body,
+html {
+  height: 100%; /* Make sure the body takes up full height */
+  margin: 0; /* Remove any default margin */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content between header and footer */
+}
+
+.tab-design {
+  display: flex;
+  justify-content: center; /* Horizontally center the card */
+  align-items: center; /* Vertically center the card */
+  height: 80vh; /* Set the height of the section */
+}
